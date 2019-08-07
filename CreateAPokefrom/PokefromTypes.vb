@@ -4,4 +4,5 @@
     Stone
     Electricity
     Nature
+    All
 End Enum

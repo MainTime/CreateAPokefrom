@@ -3,14 +3,15 @@
     Private Gender As Boolean = False
 
     Private Sub LoadFrom(sender As Object, e As EventArgs) Handles MyBase.Load
+        If IO.Directory.Exists("pfr_Data") = False Then IO.Directory.CreateDirectory("pfr_Data\")
         For Each I In System.Enum.GetValues(GetType(PokefromTypes))
             ComboBox1.Items.Add(I)
             ComboBox2.Items.Add(I)
             ComboBox3.Items.Add(I)
             ComboBox4.Items.Add(I)
         Next
-        If IO.File.Exists("attacks.json") = True Then
-            For Each ln In IO.File.ReadAllLines("attacks.json")
+        If IO.File.Exists("pfr_Data\attacks.json") = True Then
+            For Each ln In IO.File.ReadAllLines("pfr_Data\attacks.json")
                 Attacks.Add(Newtonsoft.Json.JsonConvert.DeserializeObject(Of Attack)(ln))
                 CheckedListBox1.Items.Add(Newtonsoft.Json.JsonConvert.DeserializeObject(Of Attack)(ln).Name)
             Next

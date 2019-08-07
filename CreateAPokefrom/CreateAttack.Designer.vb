@@ -40,7 +40,7 @@ Partial Class CreateAttack
         'TextBox1
         '
         Me.TextBox1.Location = New System.Drawing.Point(123, 17)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(180, 27)
         Me.TextBox1.TabIndex = 0
@@ -48,7 +48,7 @@ Partial Class CreateAttack
         'NumericUpDown1
         '
         Me.NumericUpDown1.Location = New System.Drawing.Point(123, 87)
-        Me.NumericUpDown1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.NumericUpDown1.Margin = New System.Windows.Forms.Padding(4)
         Me.NumericUpDown1.Name = "NumericUpDown1"
         Me.NumericUpDown1.Size = New System.Drawing.Size(180, 27)
         Me.NumericUpDown1.TabIndex = 1
@@ -57,7 +57,7 @@ Partial Class CreateAttack
         '
         Me.CheckBox1.AutoSize = True
         Me.CheckBox1.Location = New System.Drawing.Point(123, 122)
-        Me.CheckBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(71, 23)
         Me.CheckBox1.TabIndex = 2
@@ -68,7 +68,7 @@ Partial Class CreateAttack
         '
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Location = New System.Drawing.Point(123, 52)
-        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(180, 27)
         Me.ComboBox1.TabIndex = 3
@@ -77,7 +77,7 @@ Partial Class CreateAttack
         '
         Me.TrackBar1.LargeChange = 2
         Me.TrackBar1.Location = New System.Drawing.Point(123, 153)
-        Me.TrackBar1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TrackBar1.Margin = New System.Windows.Forms.Padding(4)
         Me.TrackBar1.Maximum = 4
         Me.TrackBar1.Minimum = 1
         Me.TrackBar1.Name = "TrackBar1"
@@ -156,7 +156,7 @@ Partial Class CreateAttack
         Me.Controls.Add(Me.NumericUpDown1)
         Me.Controls.Add(Me.TextBox1)
         Me.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "CreateAttack"
         Me.Text = "CreateAttack"
         CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()
