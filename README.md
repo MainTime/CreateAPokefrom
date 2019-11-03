@@ -41,3 +41,12 @@ I. Click on "Create attack >" below "Create >"
 II. Fill in all of the fields
 
 ![](https://raw.githubusercontent.com/MainTime/CreateAPokefrom/master/Images/ba.png)
+
+## Export your Pokefroms and Attacks
+
+I. Press the "Export" button in the main menu
+
+II. The files will be generated in the folder 
+```
+../pfr_Data/out/
+```
