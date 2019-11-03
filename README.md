@@ -38,7 +38,7 @@ I. Click on "Create attack >" below "Create >"
 
 ![](https://raw.githubusercontent.com/MainTime/CreateAPokefrom/master/Images/mm.png)
 
-II. Fill in all of the fields
+II. Fill in all of the fields *1
 
 ![](https://raw.githubusercontent.com/MainTime/CreateAPokefrom/master/Images/ba.png)
 
@@ -147,3 +147,28 @@ It has the structure of:
   }
 ]
 ```
+
+### *1 
+
+   Fairness is calculated by 
+   ```
+-  y1 = -1,9132x + 95,229
+-  y2 = -1,621x + 105,76
+-  y3 = -1,3204x + 109,46
+-  y4 = -0,0001x3 + 0,0306x2 - 2,6924x + 99,697
+(yn is DmgFairness and x is DMG)
+```
+```
+y = (y1 + y2 + y3 + y4 + y(again for level wich is selected for the pokefrom) / 5 )
+```
+
+If IsContinous is true then  
+```
+Fairness = ( y + 75 ) / 2
+```
+If IsContinous is false then
+```
+Fairness = ( y + 100 ) / 2
+```
+If Fairness is above 100 Then the fairness will be 100
+If Fairness is below 0 Then the fairness will be 0
