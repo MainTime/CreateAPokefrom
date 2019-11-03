@@ -51,10 +51,15 @@
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="Project_Aminka, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Source\Repos\Project_Aminka\Project_Aminka_Dev\bin\Debug\Project_Aminka.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -76,6 +81,24 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BuildAAttack.Designer.vb">
+      <DependentUpon>BuildAAttack.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuildAAttack.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Create.Designer.vb">
+      <DependentUpon>Create.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Create.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.vb">
+      <DependentUpon>MainMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="PokeObjects\Attack.vb" />
     <Compile Include="UI\CreateAttack.Designer.vb">
       <DependentUpon>CreateAttack.vb</DependentUpon>
@@ -109,6 +132,15 @@
     <Compile Include="PokeObjects\PokefromTypes.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="BuildAAttack.resx">
+      <DependentUpon>BuildAAttack.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create.resx">
+      <DependentUpon>Create.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\CreateAttack.resx">
       <DependentUpon>CreateAttack.vb</DependentUpon>
     </EmbeddedResource>
