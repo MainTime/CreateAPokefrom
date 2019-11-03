@@ -12,6 +12,10 @@ II. When the program finished loading you will see the main menu, where all of y
 
 ![](https://raw.githubusercontent.com/MainTime/CreateAPokefrom/master/Images/mm.png)
 
+III. Already created Pokefroms will be displayed in the main menu
+
+![](https://raw.githubusercontent.com/MainTime/CreateAPokefrom/master/Images/mmwithsamples.png)
+
 ## Create a pokefrom
 
 I. Click on the Button "Create >"
