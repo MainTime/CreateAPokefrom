@@ -4,11 +4,11 @@ CAP is a little tool which lets you create your own set of Pok3froms for my game
 
 ## How to use
 
-I.  When you open the programm you are visited by a splash screen while die programm is loading
+I.  When you open the program you are visited by a splash screen while the program is loading
 
 ![](https://raw.githubusercontent.com/MainTime/CreateAPokefrom/master/Images/splash.png)
 
-II. When the programm finished loading you will see the main menu, where all of your pokefroms are located
+II. When the program finished loading you will see the main menu, where all of your pokefroms are located
 
 ![](https://raw.githubusercontent.com/MainTime/CreateAPokefrom/master/Images/mm.png)
 
