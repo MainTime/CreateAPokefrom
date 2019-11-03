@@ -46,7 +46,104 @@ II. Fill in all of the fields
 
 I. Press the "Export" button in the main menu
 
-II. The files will be generated in the folder 
+II. The json file will be generated in the folder 
 ```
-../pfr_Data/out/
+../pfr_Data/out/(Date).pfrCollection
+```
+
+It has the structure of:
+    
+``` Json
+[
+  {
+    "Name0": "asdfasdfasdfsadf",
+    "Name1": "",
+    "Name2": "",
+    "Name3": "",
+    "Level": 0,
+    "Health": 0,
+    "Attacks": [
+      
+    ],
+    "Type0": 0,
+    "Type1": 0,
+    "Type2": 0,
+    "Type3": 0,
+    "LevelUp1": 0,
+    "LevelUp2": 0,
+    "LevelUp3": 0,
+    "Gender": false,
+    "ContinuousDamage": null,
+    "Texture1": null,
+    "Texture2": null,
+    "Texture3": null,
+    "Texture4": null,
+    "CatchIndex": 0,
+    "IsAlive": "False"
+  },
+  {
+    "Name0": "asdfsa",
+    "Name1": "",
+    "Name2": "",
+    "Name3": "",
+    "Level": 0,
+    "Health": 0,
+    "Attacks": [
+      {
+        "Name": "Mud Slap",
+        "Damage": 4,
+        "IsContinuous": false,
+        "Type": 4,
+        "Level": 1
+      }
+    ],
+    "Type0": 0,
+    "Type1": 0,
+    "Type2": 0,
+    "Type3": 0,
+    "LevelUp1": 0,
+    "LevelUp2": 0,
+    "LevelUp3": 0,
+    "Gender": false,
+    "ContinuousDamage": null,
+    "Texture1": null,
+    "Texture2": null,
+    "Texture3": null,
+    "Texture4": null,
+    "CatchIndex": 0,
+    "IsAlive": "False"
+  },
+  {
+    "Name0": "sadf",
+    "Name1": "",
+    "Name2": "",
+    "Name3": "",
+    "Level": 0,
+    "Health": 0,
+    "Attacks": [
+      {
+        "Name": "Tackle",
+        "Damage": 8,
+        "IsContinuous": false,
+        "Type": 5,
+        "Level": 1
+      }
+    ],
+    "Type0": 0,
+    "Type1": 0,
+    "Type2": 0,
+    "Type3": 0,
+    "LevelUp1": 0,
+    "LevelUp2": 0,
+    "LevelUp3": 0,
+    "Gender": false,
+    "ContinuousDamage": null,
+    "Texture1": null,
+    "Texture2": null,
+    "Texture3": null,
+    "Texture4": null,
+    "CatchIndex": 0,
+    "IsAlive": "False"
+  }
+]
 ```
